@@ -59,3 +59,35 @@ summary {
   dominant-baseline: middle;
   fill: #fff;
 }
+/* Callouts */
+.callout {
+  border-left: 4px solid #2a7ae2;
+  background: #e8f0fe;
+  padding: 1em;
+  margin: 1em 0;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  transition: background 0.3s;
+}
+
+.callout:hover {
+  background: #d6e4fd;
+}
+details {
+  margin: 0.5em 0;
+  padding: 0.5em;
+  background: #f1f1f1;
+  border-radius: 4px;
+}
+
+summary {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+details[open] {
+  background: #e6f0ff;
+}
+details > * {
+  transition: all 0.3s ease;
+}

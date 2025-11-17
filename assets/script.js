@@ -7,6 +7,14 @@ function loadLesson(path) {
     });
 }
 
+document.getElementById("content").innerHTML = marked.parse(md, { 
+  gfm: true,
+  breaks: true,
+  headerIds: true,
+  mangle: false
+});
+
+
 // Simple D3 node demo
 document.addEventListener("DOMContentLoaded", () => {
   const svg = d3.select("#graph");
