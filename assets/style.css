@@ -1,0 +1,61 @@
+body {
+  font-family: system-ui, sans-serif;
+  margin: 0;
+  padding: 1em;
+  background: #fdf6e3;
+  color: #333;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1em;
+  justify-content: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: #2a7ae2;
+}
+
+main {
+  max-width: 800px;
+  margin: auto;
+}
+
+/* Callouts */
+.callout {
+  border-left: 4px solid #2a7ae2;
+  background: #e8f0fe;
+  padding: 1em;
+  margin: 1em 0;
+  border-radius: 4px;
+}
+
+/* details / progressive reveal */
+details {
+  margin: 0.5em 0;
+}
+
+summary {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* Node demo styling */
+.node circle {
+  fill: #2a7ae2;
+  stroke: #333;
+  stroke-width: 1px;
+}
+.node text {
+  font-size: 12px;
+  text-anchor: middle;
+  dominant-baseline: middle;
+  fill: #fff;
+}

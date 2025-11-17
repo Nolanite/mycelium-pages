@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mycelium OS - Tutor</title>
+  <link rel="stylesheet" href="assets/style.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.15.0/dist/cdn.min.js"></script>
+  <script defer src="assets/script.js"></script>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Mycelium OS Tutor</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#" onclick="loadLesson('lessons/lesson1.md')">Lesson 1</a></li>
+      <!-- Add more lessons here -->
+    </ul>
+  </nav>
+
+  <main id="content">
+    <p>Select a lesson to start.</p>
+  </main>
+
+  <section id="node-demo">
+    <h2>Interactive Node Demo</h2>
+    <svg id="graph" width="600" height="300"></svg>
+  </section>
+</body>
+</html>
